@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import numpy as np
-import matplotlib.pyplot as plt  # To visualize
 from sklearn.linear_model import LinearRegression
 
 def make_model(id):
