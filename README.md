@@ -1,11 +1,11 @@
 # FPL Player Model
 
-Fantasy Premier League is a game where you select players who you anticipate will score the most goals and assists. When selecting a player, 3 variables are generally considered:
- - player form
- - player quality
- - upcoming fixture quality
+Fantasy Premier League is a game played by ~10 million players where you select players who you anticipate will score the most goals and assists before a gameweek. When selecting a player, 3 variables are generally considered:
+ - Player Form
+ - Player Quality
+ - Upcoming Fixture Difficulty
 
-Played by ~10 million players, there are many well made models predicting a players production and the impact of these stats. However, none of these publically available algoritms take into account a players proclivity to produce more when they play against worse clubs. Some players perform much better against worse sides, some perform much better when on a run of form. Thus, I decided to make an algorithm to calculate that
+There are many well made models predicting a players production and the impact of these stats. However, none of these publically available algoritms take into account an individual players proclivity to produce more when they play against worse clubs, and an individual players proclivity to produce more when they are in form. Some players perform much better against worse sides, some perform much better when on a run of form. This should be highlighted to managers. Thus, I decided to make an algorithm to calculate that
 
 ### Demo
 ![flixSchradersuper3](https://user-images.githubusercontent.com/85814674/175180886-b21692b4-d0c9-4969-a678-c5bf60786a0c.gif)
@@ -37,9 +37,11 @@ Certain players are very sensitive to fixture quality such as Ronaldo, who perfo
 
 The r^2 value for all players is relatively low, ~0.3 for most. This shows that ultimately, the model isn't perfect at predicting as soccer is so unpredictable, but the data can still be used when trying to maximize oppurtunity. 
 
-## Other Stats
 Of the top 100 players in xG last season: <br />
 Top 5 Players against good teams: Ilkay Gündogan, Conor Gallagher, Gabriel Martinelli, Wout Weghorst, Alexandre Lacazette <br />
 Top 5 Players against bad teams: Timo Werner, Ivan Toney, Patson Daka, Pierre-Emerick Aubameyang, Callum Wilson <br />
 Top 5 Players when in form: Gabriel Martinelli, João Pedro, Timo Werner, Ademola Lookman, Mohamed Elyounoussi <br />
 Top 5 Players when not in form: Christian Nørgaard, Wout Weghorst, Tomas Soucek, Daniel James, Emmanuel Dennis <br />
+
+Data for all 100 players is in results.txt
+
