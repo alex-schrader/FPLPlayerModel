@@ -38,8 +38,8 @@ Certain players are very sensitive to fixture quality such as Ronaldo, who perfo
 The r^2 value for all players is relatively low, ~0.3 for most. This shows that ultimately, the model isn't perfect at predicting as soccer is so unpredictable, but the data can still be used when trying to maximize oppurtunity. 
 
 ## Other Stats
-Of the top 100 players in xG last season:
-Top 5 Players against good teams: Ilkay Gündogan, Conor Gallagher, Gabriel Martinelli, Wout Weghorst, Alexandre Lacazette
-Top 5 Players against bad teams: Timo Werner, Ivan Toney, Patson Daka, Pierre-Emerick Aubameyang, Callum Wilson
-Top 5 Players when in form: Gabriel Martinelli, João Pedro, Timo Werner, Ademola Lookman, Mohamed Elyounoussi
-Top 5 Players when not in form: Christian Nørgaard, Wout Weghorst, Tomas Soucek, Daniel James, Emmanuel Dennis
+Of the top 100 players in xG last season: <br />
+Top 5 Players against good teams: Ilkay Gündogan, Conor Gallagher, Gabriel Martinelli, Wout Weghorst, Alexandre Lacazette <br />
+Top 5 Players against bad teams: Timo Werner, Ivan Toney, Patson Daka, Pierre-Emerick Aubameyang, Callum Wilson <br />
+Top 5 Players when in form: Gabriel Martinelli, João Pedro, Timo Werner, Ademola Lookman, Mohamed Elyounoussi <br />
+Top 5 Players when not in form: Christian Nørgaard, Wout Weghorst, Tomas Soucek, Daniel James, Emmanuel Dennis <br />
