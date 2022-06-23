@@ -119,6 +119,7 @@ def make_model(id):
 
 
     model = LinearRegression().fit(x, y)
+    #print("model.score: ", model.score(x, y))
 
 
     return model, form_vals, name

@@ -4,6 +4,7 @@ import numpy as np
 def main():
     print("Welcome to transfer picker!")
     id = input("Player ID: ")
+    print("making model...")
     model, form_vals, name = make_model.make_model(id)
 
     form = 0
@@ -20,11 +21,6 @@ def main():
     diffi[3] = int(input("Game 4: "))
 
     avg = sum(diffi) / 4
-
-
-
-
-
     test_data = np.array([[diffi[0], form]])
     top_pred = model.predict(test_data)
     print("Fixture 1 Expected Points: %.2f" % top_pred[0])
