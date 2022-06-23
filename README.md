@@ -22,17 +22,17 @@ Data used: all data was pulled from understat.com, where player xG(expected goal
 ## Results
 The results indicate that certain players are much more susceptive to good form and good fixtures then others. For example, we can calculate the difference in points when a player is in top form versus in poor form(delta_form), and when a player is in good fixtures versus and bad fixtures(delta_fixtures). Here are a few players delta values:
 
-Ronaldo_delta_form = 2.83
-
-| Name     | delta_form         | delta_fixture  |
-| ------------- |:-------------:| -----:|
-| Harry Kane   | 6.32 | 1.30 |
-| Mo Salah      | 6.14     |   0.71 |
-| Cristiano Ronaldo | 5.05      |    2.83 |
-| Son Heung Min   | 7.20 | 0.32 |
-| Jamie Vardy    | 6.06    |   0.91 |
-| Kevin De Bruyne | 6.00      |    -0.40 |
-| Immanuel Dennis   | 4.98 | 0.49 |
+| Name     | delta_form         | delta_fixture  | Accuracy(r^2)  |
+| ------------- |:-------------:| -----:| ------:|
+| Harry Kane   | 6.32 | 1.30 | 0.31 |
+| Mo Salah      | 6.14     |   0.71 | 0.26 |
+| Cristiano Ronaldo | 5.05      |    2.83 | 0.34 |
+| Son Heung Min   | 7.20 | 0.32 | 0.31 |
+| Jamie Vardy    | 6.06    |   0.91 | 0.34 |
+| Kevin De Bruyne | 6.00      |    -0.40 | 0.26 |
+| Immanuel Dennis   | 4.98 | 0.49 | 0.26
 
 
 Certain players are very sensitive to fixture quality such as Ronaldo, who performs significantly better against worse clubs. However some are less sensitive to this, with Kevin De Bruyne even performing better against better clubs. Similarly, a player like Son Heung Min performs better when in good form, whereas a player like Immanuel Dennis is much less effected. 
+
+The r^2 value for all players is relatively low, ~0.3 for most. This shows that ultimately, the model isn't perfect at predicting as soccer is so unpredictable, but the data can still be used when trying to maximize oppurtunity. 
