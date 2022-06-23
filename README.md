@@ -36,3 +36,10 @@ The results indicate that certain players are much more susceptive to good form 
 Certain players are very sensitive to fixture quality such as Ronaldo, who performs significantly better against worse clubs. However some are less sensitive to this, with Kevin De Bruyne even performing better against better clubs. Similarly, a player like Son Heung Min performs better when in good form, whereas a player like Immanuel Dennis is much less effected. 
 
 The r^2 value for all players is relatively low, ~0.3 for most. This shows that ultimately, the model isn't perfect at predicting as soccer is so unpredictable, but the data can still be used when trying to maximize oppurtunity. 
+
+## Other Stats
+Of the top 100 players in xG last season:
+Top 5 Players against good teams: Ilkay Gündogan, Conor Gallagher, Gabriel Martinelli, Wout Weghorst, Alexandre Lacazette
+Top 5 Players against bad teams: Timo Werner, Ivan Toney, Patson Daka, Pierre-Emerick Aubameyang, Callum Wilson
+Top 5 Players when in form: Gabriel Martinelli, João Pedro, Timo Werner, Ademola Lookman, Mohamed Elyounoussi
+Top 5 Players when not in form: Christian Nørgaard, Wout Weghorst, Tomas Soucek, Daniel James, Emmanuel Dennis
