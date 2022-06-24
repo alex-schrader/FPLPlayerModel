@@ -40,7 +40,7 @@ The r^2 value for all players is relatively low, ~0.3 for most. This shows that 
 Of the top 100 players in xG last season: <br />
 Top 5 Players against strong teams: <br />Ilkay Gündogan, Conor Gallagher, Gabriel Martinelli, Wout Weghorst, Alexandre Lacazette <br /><br />
 Top 5 Players against weak teams: <br />Timo Werner, Ivan Toney, Patson Daka, Pierre-Emerick Aubameyang, Callum Wilson <br /><br />
-Top 5 Players when in form: Gabriel Martinelli, João Pedro, Timo Werner, Ademola Lookman, Mohamed Elyounoussi <br /><br />
+Top 5 Players when in form: <br />Gabriel Martinelli, João Pedro, Timo Werner, Ademola Lookman, Mohamed Elyounoussi <br /><br />
 Top 5 Players when not in form: <br />Christian Nørgaard, Wout Weghorst, Tomas Soucek, Daniel James, Emmanuel Dennis <br /><br />
 
 Data for all 100 players is in results.txt
